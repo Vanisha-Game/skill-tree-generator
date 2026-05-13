@@ -9,8 +9,8 @@ Browser-based skill tree editor with JSON import/export.
 Static HTML, CSS, and JavaScript. Serve the folder over HTTP:
 
 ```bash
-git clone <your-fork-url>
-cd vanisha-skill-tree-generator
+git clone https://github.com/Vanisha-Game/skill-tree-generator.git
+cd skill-tree-generator
 python3 -m http.server 8000
 ```
 
