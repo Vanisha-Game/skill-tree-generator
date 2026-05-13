@@ -1,0 +1,23 @@
+{
+  "stats": [
+    { "stat": "damage", "display_name": "Damage", "description": "Increases attack damage", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 1, "notable": 3 }, "display": { "format": "0.#", "prefix": "+" } },
+    { "stat": "attack_speed", "display_name": "Attack Speed", "description": "Increases attack rate", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 0.05, "notable": 0.1 }, "display": { "format": "0.#", "suffix": "%", "multiplier": 100, "prefix": "+" } },
+    { "stat": "crit_chance", "display_name": "Critical Chance", "description": "Chance to land a critical hit", "node_tier": "notable", "apply_mode": "add", "value_per_node": { "basic": 0.05, "notable": 0.1 }, "display": { "format": "0.#", "suffix": "%", "multiplier": 100, "prefix": "+" } },
+    { "stat": "power_strike", "display_name": "Power Strike", "description": "Unlocks a powerful melee attack", "node_tier": "super_notable" },
+
+    { "stat": "health", "display_name": "Health", "description": "Increases maximum health", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 10, "notable": 25 }, "display": { "format": "0", "prefix": "+" } },
+    { "stat": "defense", "display_name": "Defense", "description": "Reduces incoming damage", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 2, "notable": 5 }, "display": { "format": "0", "prefix": "+" } },
+    { "stat": "regeneration", "display_name": "Regeneration", "description": "Restores health over time", "node_tier": "notable", "apply_mode": "add", "value_per_node": { "basic": 0.5, "notable": 1 }, "display": { "format": "0.#", "suffix": "/s", "prefix": "+" } },
+    { "stat": "shield_barrier", "display_name": "Shield Barrier", "description": "Unlocks a damage-absorbing shield", "node_tier": "super_notable" },
+
+    { "stat": "projectile_damage", "display_name": "Projectile Damage", "description": "Increases projectile damage", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 1, "notable": 3 }, "display": { "format": "0.#", "prefix": "+" } },
+    { "stat": "projectile_speed", "display_name": "Projectile Speed", "description": "Increases projectile travel speed", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 0.05, "notable": 0.1 }, "display": { "format": "0.#", "suffix": "%", "multiplier": 100, "prefix": "+" } },
+    { "stat": "pierce_chance", "display_name": "Pierce Chance", "description": "Chance projectiles pierce enemies", "node_tier": "notable", "apply_mode": "add", "value_per_node": { "basic": 0.05, "notable": 0.1 }, "display": { "format": "0.#", "suffix": "%", "multiplier": 100, "prefix": "+" } },
+    { "stat": "homing_shot", "display_name": "Homing Shot", "description": "Unlocks projectiles that track enemies", "node_tier": "super_notable" },
+
+    { "stat": "speed", "display_name": "Speed", "description": "Increases movement speed", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 0.05, "notable": 0.1 }, "display": { "format": "0.#", "suffix": "%", "multiplier": 100, "prefix": "+" } },
+    { "stat": "block", "display_name": "Block Chance", "description": "Chance to block an attack", "node_tier": "basic", "apply_mode": "add", "value_per_node": { "basic": 0.02, "notable": 0.05 }, "display": { "format": "0.#", "suffix": "%", "multiplier": 100, "prefix": "+" } },
+    { "stat": "dodge_chance", "display_name": "Dodge Chance", "description": "Chance to evade an attack", "node_tier": "notable", "apply_mode": "add", "value_per_node": { "basic": 0.03, "notable": 0.07 }, "display": { "format": "0.#", "suffix": "%", "multiplier": 100, "prefix": "+" } },
+    { "stat": "dash", "display_name": "Dash", "description": "Unlocks a quick-dash maneuver", "node_tier": "super_notable" }
+  ]
+}

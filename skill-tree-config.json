@@ -1,0 +1,60 @@
+{
+  "paths": {
+    "north": {
+      "areas": [
+        {
+          "position": 1,
+          "gate": "power_strike",
+          "stats": [
+            { "stat": "damage", "count": 4 },
+            { "stat": "attack_speed", "count": 3 },
+            { "stat": "crit_chance", "count": 2 }
+          ]
+        }
+      ]
+    },
+    "south": {
+      "areas": [
+        {
+          "position": 1,
+          "gate": "shield_barrier",
+          "stats": [
+            { "stat": "health", "count": 4 },
+            { "stat": "defense", "count": 3 },
+            { "stat": "regeneration", "count": 2 }
+          ]
+        }
+      ]
+    },
+    "east": {
+      "areas": [
+        {
+          "position": 1,
+          "gate": "homing_shot",
+          "stats": [
+            { "stat": "projectile_damage", "count": 4 },
+            { "stat": "projectile_speed", "count": 3 },
+            { "stat": "pierce_chance", "count": 2 }
+          ]
+        }
+      ]
+    },
+    "west": {
+      "areas": [
+        {
+          "position": 1,
+          "gate": "dash",
+          "stats": [
+            { "stat": "speed", "count": 4 },
+            { "stat": "block", "count": 3 },
+            { "stat": "dodge_chance", "count": 2 }
+          ]
+        }
+      ]
+    }
+  },
+  "global": [],
+  "introNodesPerPath": 0,
+  "spilloverPercent": 0,
+  "seed": 42
+}
