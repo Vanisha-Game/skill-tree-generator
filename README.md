@@ -6,17 +6,24 @@ Browser-based skill tree editor with JSON import/export.
 
 ## Running
 
-Static HTML, CSS, and JavaScript. Serve the folder over HTTP:
+Clone or download the repo:
 
 ```bash
 git clone https://github.com/Vanisha-Game/skill-tree-generator.git
 cd skill-tree-generator
+```
+
+Open `index.html` in a browser. Use the file picker to load `stat-registry.json`.
+
+### Optional: serve over HTTP
+
+If you want `stat-registry.json` to autoload at startup instead of picking it manually, serve the folder over HTTP. Browsers block `fetch()` on `file://` origins, so a local server is needed for autoload.
+
+```bash
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000` in a browser.
-
-The page loads `stat-registry.json` via `fetch()`, which browsers block on `file://` origins. Opening `index.html` directly works if you load the registry through the file picker.
+Open `http://localhost:8000`. Any static server works (`npx serve .`, `php -S localhost:8000`, etc.).
 
 ## Features
 
