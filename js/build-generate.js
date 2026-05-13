@@ -218,7 +218,6 @@ function exportJSON() {
       y: n.y,
     };
     if (n.name) out.name = n.name;
-    if (n.description) out.description = n.description;
     if (n.stat) out.stat = n.stat;
     if (n.isRoot) out.isRoot = true;
     if (n.isNotable) out.isNotable = true;

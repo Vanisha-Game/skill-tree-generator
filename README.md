@@ -77,7 +77,7 @@ Open `http://localhost:8000`. Any static server works (`npx serve .`, `php -S lo
 {
   "nodes": [
     { "id": "root", "levels": 1, "x": 0, "y": 0, "isRoot": true },
-    { "id": "n_2", "levels": 1, "x": 0, "y": -1, "stat": "health", "name": "Health", "description": "Increases maximum health", "path": "north", "area": 1 }
+    { "id": "n_2", "levels": 1, "x": 0, "y": -1, "stat": "health", "name": "Health", "path": "north", "area": 1 }
   ],
   "connections": [
     { "from": { "x": 0, "y": 0 }, "to": { "x": 0, "y": -1 } }
